@@ -1,0 +1,44 @@
+{
+	"name": "CalendarApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"release": "cd android && gradlew bundleRelease",
+		"release-apk": "cd android && gradlew assembleRelease",
+		"clean": "cd android && gradlew clean",
+		"android": "npx react-native run-android",
+		"ios": "npx react-native run-ios",
+		"start": "npx react-native start",
+		"test": "jest",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"@react-native-community/datetimepicker": "^3.0.4",
+		"@react-native-community/masked-view": "^0.1.10",
+		"@react-native-picker/picker": "^1.9.2",
+		"@react-navigation/native": "^5.8.5",
+		"@react-navigation/stack": "^5.12.2",
+		"react": "16.13.1",
+		"react-native": "0.63.3",
+		"react-native-calendar-events": "^2.1.2",
+		"react-native-calendars": "^1.403.0",
+		"react-native-gesture-handler": "^1.8.0",
+		"react-native-reanimated": "^1.13.1",
+		"react-native-safe-area-context": "^3.1.8",
+		"react-native-screens": "^2.13.0",
+		"react-native-vector-icons": "^7.1.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.8.4",
+		"@babel/runtime": "^7.8.4",
+		"@react-native-community/eslint-config": "^1.1.0",
+		"babel-jest": "^25.1.0",
+		"eslint": "^6.5.1",
+		"jest": "^25.1.0",
+		"metro-react-native-babel-preset": "^0.59.0",
+		"react-test-renderer": "16.13.1"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
