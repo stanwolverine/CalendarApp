@@ -1,7 +1,6 @@
 # CalendarApp
-React Native Calendar App 
 
-## App Features
+### App Features
 1. User can see all the "dates with events" in a month. (note: busy dates are marked with red color and free dates are marked with blue color)
 2. It can change month by clicking on arrows or swiping and see "dates with events" for the month.
 3. It can view all its events at a particular date by selecting date.
@@ -9,13 +8,17 @@ React Native Calendar App
 5. User will be notified before 10 mins of event start time.
 6. It can delete any event by swiping left an event and clicking on delete icon.
 
-## Missing Important Features
+### Demo Video
+https://user-images.githubusercontent.com/45194090/174719836-71779485-e97b-4d3d-a0ff-50b4764468bc.mp4
+
+
+### Missing Important Features
 1. Jump to any date.
 2. Editing events.
 3. More fields for adding calendar event.
 4. Visual effect for current selected date.
 
-## Changes to make in /android folder to build this app
+### Changes to make in /android folder to build this app
 1.) In `/android/app/build.gradle`
 
   paste below code after this line: `apply from: "../../node_modules/react-native/react.gradle"`
