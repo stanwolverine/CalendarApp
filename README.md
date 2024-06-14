@@ -1,5 +1,7 @@
 # CalendarApp
 
+An app for managing calendar events. Users can view dates with events in a month, switch between months, and manage events easily. Features include adding events with a required title, viewing event details, receiving notifications 10 minutes before events, and deleting events with a swipe.
+
 ### App Features
 1. User can see all the "dates with events" in a month. (note: busy dates are marked with red color and free dates are marked with blue color)
 2. It can change month by clicking on arrows or swiping and see "dates with events" for the month.
